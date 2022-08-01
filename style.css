@@ -1,0 +1,47 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 50%;
+    
+}
+p{
+    font: 14px;
+    font-family: 'Montserrat';
+}
+.main-container{
+    background-color: white;
+    height: 26.2em;
+    width: 35em;
+    border: 2px solid red;
+  
+    
+}
+.text-container{
+    height: 26.2em;
+    width: 35em;
+    background-color: blue;
+}
+.title-container{
+    border: 2px solid red;
+}
+.para-container{
+    border: 2px solid red;
+    font: 14px;
+    
+}
+.price{
+
+}
+.strong{
+    color: rgb(72, 117, 94);
+}
