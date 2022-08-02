@@ -2,6 +2,10 @@ html{
     height: 100%;
     width: 100%;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     height: 100%;
     width: 100%;
@@ -9,34 +13,59 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-img{
-    width: 50%;
     
 }
 p{
-    font: 14px;
-    font-family: 'Montserrat';
+    
 }
 .main-container{
-    background-color: white;
-    height: 26.2em;
+    /* background-color: white; */
+    height: 30em;
     width: 35em;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    border-radius: 1em 1em 1em 1em;
+    display: flex;
   
     
 }
+.image-container{
+    height: 100%;
+    width: 50%;
+    background-size: 300px 480px;
+    background-image: url("./images/image-product-desktop.jpg");
+    background-repeat: no-repeat;
+    border-radius: 1em 0 0 1em;
+    display: flex;
+    
+}
 .text-container{
-    height: 26.2em;
-    width: 35em;
-    background-color: blue;
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    border-radius: 0 1em 1em 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+.perfume{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 0.4em;
+    margin: 30px 15px 13px 30px;
+    height: 1em;
 }
 .title-container{
-    border: 2px solid red;
+    font-family: "Fraunces", sans-serif;
+    margin: 4px 20px 20px 30px;
+    padding: ;
+    width: 15em;
+    height: 1em;
+
 }
 .para-container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font: 14px;
+    font-family: "Fraunces", sans-serif;;
     
 }
 .price{
